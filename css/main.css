@@ -1,0 +1,538 @@
+/* ------ Specification ------ */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+div, p, form, input, span, button, a {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 900;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.3px;
+}
+
+p {
+	margin: 0;
+    line-height: 1.2;
+    letter-spacing: 0.2px
+}
+
+h1 {
+	color: #1b3bde;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 400;
+}
+
+a, button, input {
+	transition: all 0.3s ease;
+}
+
+.button, button:hover, button:focus, button:active {
+	outline: none;
+}
+
+button:hover {
+	box-shadow: 0 1px 10px rgba(0,0,0,0.9);
+}
+
+button:active {
+	box-shadow: 0 0px 5px rgba(0,0,0,0.2);
+}
+
+.d-flex {
+	display: flex;
+}
+
+.jcb {
+	justify-content: space-between;
+}
+
+.jca {
+	justify-content: space-around;
+}
+
+.aic {
+	align-items: center;
+}
+
+.jcc {
+	justify-content: center;
+}
+/* ------ First screen ------ */
+
+.top_panel {
+	padding: 18px 0 20px;
+	box-shadow: 0 -6px 12px rgba(0,0,0,0.10) inset;
+}
+
+.logo {
+	margin-right: 55px;
+}
+
+.logo__box {
+	background: #1b3bde;
+	width: 49px;
+	height: 49px;
+	border-radius: 5px;
+	align-items: center;
+	margin-right: 11px;
+}
+
+.logo i {
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.logo__text {
+	width: 125px;
+	text-transform: uppercase;
+	color: #1b3bde;
+}
+
+.logo__school {
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.logo__big {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.menu {
+	width: 59%;
+}
+
+.menu a {
+	font-size: 13px;
+	font-weight: 900;
+	color: #000;
+	padding: 7px 20px;
+	margin-right: 1px;
+}
+
+.menu a:hover {
+	background: #000;
+	color: #fff;
+	padding: 7px 19px;
+	border-radius: 5px;
+}
+
+.phone {
+	font-weight: 900;
+	color: #000;
+	margin-left: auto;
+}
+
+.firstscreen {
+	background: url(../img/science_bg.jpg) no-repeat center top / cover;
+	padding: 87px 0 135px;
+}
+
+.page__onlineworkshop {
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 29px;
+}
+
+.page__block {
+	text-align: center;
+	width: 510px;
+}
+
+.page__title {
+	font-size: 45px;
+	margin-bottom: 31px;
+}
+
+.blank {
+	width: 333px;
+	height: 418px;
+	background: #fff;
+	display: block;
+	padding: 39px 35px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 15px 91px rgba(0,0,0,0.20);
+}
+
+.blank__title {
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+.page__time {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.page__time:hover {
+	background: #000;
+	color: #fff;
+	padding: 7px 19px;
+	border-radius: 5px;
+}
+
+.blank__disc {
+	margin-bottom: 19px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.blank__form {
+
+}
+
+.blank__input {
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	display: block;
+	width: 268px;
+	color: #acacac;
+	border: none;
+	border-bottom: 1px #acacac solid;
+	padding: 13px 0;
+	margin-bottom: 6px;
+	outline: none;
+}
+
+.blank__input:hover {
+	display: block;
+	border-bottom: 1px #000 solid;
+	color: #000;
+}
+
+.blank__button {
+	background: #4acc4d;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 900;
+	width: 268px;
+	padding: 18px;
+	display: block;
+	border-radius: 5px;
+	margin: 25px 0 13px;
+	border: none;
+	cursor: pointer;
+}
+
+.blank__security {
+	font-size: 12px;
+	color: #adadad;
+}
+
+/* ------ Second screen ------ */
+
+.cards {
+	padding: 122px 0;
+}
+
+.violetcard {
+	margin-bottom: 68px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.author {
+	background: #9d6bdc;
+	width: 469px;
+	height: 265px;
+	border-radius: 5px;
+	padding: 36px 57px 49px 56px;
+	box-shadow: 0 3px 4px rgba(0,0,0,0.20), 0 2px 46px rgba(0,0,0,0.24);
+}
+
+.author__name {
+	font-size: 18px;
+	font-weight: 900;
+	color: #f1ebfa;
+	margin-bottom: 19px;
+}
+
+.author__position {
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.author__digits {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.author__elements {
+
+}
+
+.author__icon {
+	font-size: 39px;
+	font-weight: 700;
+	color: #fff;
+	margin-right: 18px;
+}
+
+.author__text {
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.author__text_long {
+	width: 73px;
+	margin-right: 34px;
+}
+
+.author__text_short {
+	width: 47px;
+}
+
+.author__link {
+	font-size: 14px;
+	font-weight: 900;
+	color: #fff;
+}
+
+.question {
+	width: 573px;
+
+}
+
+.question__title {
+	font-size: 28px;
+	margin-bottom: 8px;
+}
+
+.question__text {
+	font-size: 15px;
+	line-height: 1.7;
+	width: 80%;
+}
+
+.yellowcard {
+	padding-left: 132px;
+	align-items: center;
+}
+
+.question_answer {
+
+}
+
+.question__title {
+
+}
+
+.question__text {
+
+}
+
+.author__money {
+	background: #f6e23a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 490px;
+	height: 265px;
+	border-radius: 5px;
+}
+
+.author__usd {
+	font-size: 43px;
+	font-weight: 900;
+	text-align: center;
+}
+
+/* ------ Third screen ------ */
+
+.show {
+	padding: 107px 0;
+	margin-bottom: 87px;
+	background: #f0f7f7 url(../img/science_bg.jpg) no-repeat center top / cover;
+}
+
+.ishow-title {
+	margin-bottom: 80px;
+}
+
+.opportunities__box {
+	width: 340px;
+}
+
+.opportunities__blue {
+	height: 82px;
+	width: 82px;
+	font-weight: 900;
+	background: #1b3bde;
+	color: #fff;
+	font-size: 26px;
+	border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.opportunities__text {
+	width: 220px;
+	padding-top: 19px;
+}
+
+.opportunities__title {
+	font-size: 19px;
+	font-weight: 900;
+	color: #1b3bde;
+	margin-bottom: 14px;
+}
+
+.opportunities__words {
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+}
+
+/* ------ Fourth screen ------ */
+
+.ifyou {
+
+}
+
+.ifyou-title {
+	font-size: 28px;
+	font-weight: 900;
+	margin-bottom: 66px;
+}
+
+.mirror {
+	margin-bottom: 100px;
+}
+
+.mirror__box {
+	width: 348px;
+	height: 236px;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.2s ease;
+}
+
+.mirror__box_bg-green {
+	background: #4acc4d;
+}
+
+.mirror__box_bg-blue {
+	background: #4ac6cb;
+}
+
+.mirror__box_bg-pink {
+	background: #dc6b83;
+}
+
+.mirror__box:hover {
+	border-color: transparent;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border-radius: 5px;
+	transform: translateY(-10px);
+}
+
+.mirror__box i {
+	margin-bottom: 19px;
+	font-size: 42px;
+	color: #fff;
+}
+
+.mirror__text {
+	font-size: 19px;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+}
+
+/* ------ Fourth screen ------ */
+
+.fifth {
+	background: url(../img/science_blue_img.jpg) no-repeat center top / cover;
+	padding: 100px 0 108px;
+}
+
+.fifthtscreen {
+	/*background: #3350e0 url(../img/science_bg.jpg) no-repeat center top / cover;
+	padding: 100px 0 108px;*/
+}
+
+.page__block_not {
+	text-align: center;
+	color: #fff;
+	text-align: center;
+    width: 510px;
+}
+
+.blank_item {
+	width: 333px;
+	height: 418px;
+	background: #fff;
+	display: block;
+	padding: 34px 35px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 15px 91px rgba(0,0,0,0.20);
+}
+
+.reserve__title {
+	margin-bottom: 32px;
+}
+
+.potential__title {
+	padding-top: 2px;
+}
+
+/* ------ Footer ------ */
+
+.top_footer {
+	padding: 23px 0px;
+}
+
+.menu__panel p {
+	font-size: 12px;
+	font-weight: 400;
+	margin-left: 73px
+}
+
+.fa-clock {
+	color: #fff;
+}
+
+.page__white {
+	color: #fff;
+	padding-right: 15px;
+}
+
+.page__users {
+	color: #fff;
+}
+
+.fa-users {
+	color: #fff;
+}
